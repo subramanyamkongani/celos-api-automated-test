@@ -1,12 +1,13 @@
-package celos.api.qa.base;
+package celos.api.qa.restClient;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import celos.api.qa.common.utils.Log;
-import celos.api.qa.common.utils.TestContainer;
+
+import com.celos.qa.api.commonUtils.Log;
+import com.celos.qa.api.commonUtils.TestContainer;
 
 /******************************************************************************
  * This Session object is used to hold values while test run Holds common data

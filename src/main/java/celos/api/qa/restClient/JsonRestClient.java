@@ -1,4 +1,4 @@
-package celos.api.qa.base;
+package celos.api.qa.restClient;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -10,15 +10,15 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.glassfish.jersey.client.ClientConfig;
 
+import com.celos.qa.api.commonUtils.Log;
+import com.celos.qa.api.commonUtils.TestContainer;
+import com.celos.qa.api.commonUtils.TestCoreUtils;
+import com.celos.qa.api.fields.ApiFields;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
-import celos.api.qa.common.utils.Log;
-import celos.api.qa.common.utils.TestContainer;
-import celos.api.qa.common.utils.TestCoreUtils;
-import celos.api.qa.fields.ApiFields;
 import jakarta.ws.rs.client.Client;
 import jakarta.ws.rs.client.ClientBuilder;
 import jakarta.ws.rs.client.Invocation;

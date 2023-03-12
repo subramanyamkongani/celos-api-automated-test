@@ -1,4 +1,4 @@
-package celos.api.qa.common.utils;
+package com.celos.qa.api.commonUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -6,7 +6,8 @@ import java.io.FileNotFoundException;
 import java.util.Properties;
 
 import org.apache.logging.log4j.*;
-import celos.api.qa.common.utils.Log;
+
+import com.celos.qa.api.commonUtils.Log;
 
 /*************************************************************
  * Reads file and loads values into Properties object.

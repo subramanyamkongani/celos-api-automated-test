@@ -1,4 +1,4 @@
-package celos.api.qa.common.utils;
+package com.celos.qa.api.commonUtils;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,4 +1,4 @@
-package celos.api.qa.common.utils;
+package com.celos.qa.api.commonUtils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -45,12 +45,12 @@ public class TestContainer {
 		return globalVars.get("environment").toString();
 	}
 
-	/** Variable to hold test type such as - WDW or DLR **/
+	/** Variable to hold test type such as **/
 	public static void setDomain(String type) {
 		setGlobal("domain", type);
 	}
 
-	/** Variable to hold test type such as - WDW or DLR **/
+	/** Variable to hold test type such as **/
 	public static String getDomain() {
 		return globalVars.get("domain").toString();
 	}

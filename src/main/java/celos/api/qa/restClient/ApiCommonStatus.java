@@ -1,15 +1,15 @@
-package celos.api.qa.base;
+package celos.api.qa.restClient;
 
 import java.net.HttpURLConnection;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.fasterxml.jackson.databind.JsonNode;
 
-import celos.api.qa.common.utils.Assertion;
-import celos.api.qa.common.utils.Log;
-import celos.api.qa.common.utils.TestContainer;
-import celos.api.qa.fields.ApiFields;
+import com.celos.qa.api.commonUtils.Assertion;
+import com.celos.qa.api.commonUtils.Log;
+import com.celos.qa.api.commonUtils.TestContainer;
+import com.celos.qa.api.fields.ApiFields;
+import com.fasterxml.jackson.databind.JsonNode;
 
 public class ApiCommonStatus {
 

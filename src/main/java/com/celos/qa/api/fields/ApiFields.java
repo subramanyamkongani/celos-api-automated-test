@@ -1,4 +1,4 @@
-package celos.api.qa.fields;
+package com.celos.qa.api.fields;
 
 /****************************************************
  * ENUM holds general string values for api calls

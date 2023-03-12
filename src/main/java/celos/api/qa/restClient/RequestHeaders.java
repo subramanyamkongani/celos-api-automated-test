@@ -1,4 +1,4 @@
-package celos.api.qa.base;
+package celos.api.qa.restClient;
 
 
 /********************************************************************************

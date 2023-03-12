@@ -1,4 +1,4 @@
-package celos.api.qa.common.utils;
+package com.celos.qa.api.commonUtils;
 
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
