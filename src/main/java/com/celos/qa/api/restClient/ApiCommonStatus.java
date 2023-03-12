@@ -1,4 +1,4 @@
-package celos.api.qa.restClient;
+package com.celos.qa.api.restClient;
 
 import java.net.HttpURLConnection;
 

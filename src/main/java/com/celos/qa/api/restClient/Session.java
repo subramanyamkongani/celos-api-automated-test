@@ -1,4 +1,4 @@
-package celos.api.qa.restClient;
+package com.celos.qa.api.restClient;
 
 import java.util.HashMap;
 import java.util.List;

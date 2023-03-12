@@ -1,4 +1,4 @@
-package celos.api.qa.restClient;
+package com.celos.qa.api.restClient;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
