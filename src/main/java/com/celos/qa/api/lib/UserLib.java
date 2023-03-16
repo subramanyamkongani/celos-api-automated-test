@@ -17,6 +17,7 @@ public class UserLib {
 	
 	public static Map<String, JsonNode> getUsersDetails(){
 		Log.logInfo(log, "Get User Details");
+		Log.logInfo(log, "Creating new connection");
 		CommonBaseApi baseApi = new CommonBaseApi();
 		Map<String, JsonNode> userDetailsResponse = baseApi.requestUsersData();
 		ApiCommonStatus.validateStatusOk(userDetailsResponse.get(ApiFields.RESPONSE_FIELD_STATUS.field()));
