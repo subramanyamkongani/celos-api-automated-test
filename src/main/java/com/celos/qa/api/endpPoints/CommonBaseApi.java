@@ -14,7 +14,7 @@ public class CommonBaseApi extends JsonRestClient {
 	private String baseUrl = ConfigMapping.getConfigProperty(ConfigMapping.URL_API_WDPRO_STARWAVE);
 	
 	/**
-	 * Execute a GET Request to /api/users
+	 * Execute a GET Request to /api/users and returns the response in Json format
 	 */
 	
 	public final Map<String, JsonNode> requestUsersData(){
