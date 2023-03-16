@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+		<File name ="FILEOUT" fileName="target/lib_log.out" append="false">
+			<PatternLayout>
+				<Pattern>[THREAD = %t] %d{yyyy-MM-dd HH:mm:ss} %-5p [Class = %c{1} : %m%n</Pattern>
+			</PatternLayout>
+		</File>
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout>
+				<Pattern>[THREAD = %t] %d{yyyy-MM-dd HH:mm:ss} %-5p [Class = %c{1} : %m%n</Pattern>
+			</PatternLayout>
+		</Console>
+	</Appenders>
+	
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="FILEOUT" level="debug"/>
+			<AppenderRef ref="STDOUT" level="info"/>
+		</Root>
+	</Loggers>
+</Configuration>

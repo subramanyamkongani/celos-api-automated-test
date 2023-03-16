@@ -60,7 +60,7 @@ public class Log {
 	 * @param msg - the message to output
 	 **/
 	public static void logInfo(Logger log, String msg) {
-		log.info(retrieveThreadId() + msg);
+		log.info(msg);
 		Reporter.log(msg);
 	}
 

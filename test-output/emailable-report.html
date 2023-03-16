@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">1.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.celos.qa.api.test.ApiGetRequestTest</td><td><a href="#m1"><b>getRequestTest</b>  </a></td><td class="numi">1</td><td>1678705320257</td><td class="numi">1667</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">com.celos.qa.api.test.ApiGetRequestTest:getRequestTest</h2>
+<div style="padding-left:3em">
+Get User Details<br/>
+Configuration file - /Users/subramanyamkongani/eclipse-workspace/celos-api-automated-test/src/main/java/com/celos/qa/api/config/config.properties - successfully loaded<br/>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><br/>
+Request Executed: {method=GET, uri=https://reqres.in/api/users, status=200, reason=OK}<br/>
+Response Headers: {CF-RAY=[7a73c846b8fb529d-CCU], Server=[cloudflare], Access-Control-Allow-Origin=[*], Connection=[keep-alive], Date=[Mon, 13 Mar 2023 11:02:02 GMT], Via=[1.1 vegur], Accept-Ranges=[bytes], CF-Cache-Status=[HIT], NEL=[{"success_fraction":0,"report_to":"cf-nel","max_age":604800}], Cache-Control=[max-age=14400], Etag=[W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vYnWneFdP%2FJrGFU1dFRhMdODn21WvbFutq00sf5%2F3%2B5Yux%2FvLgEGpYl0WuZ7OxgfX1pUCgLB9n2JoRNzlHL6ucDJq4WIIJS%2FixZoYXaNC0hOS1npFaj3AHaBlg%3D%3D"}],"group":"cf-nel","max_age":604800}], Content-Length=[996], Age=[2354], X-Powered-By=[Express], Content-Type=[application/json; charset=utf-8]}<br/>
+Response Body: {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<br/>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<br/>
+Get Users Details is completed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
